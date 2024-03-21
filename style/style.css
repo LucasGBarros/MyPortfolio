@@ -137,6 +137,10 @@ header {
     font-family: "Century Gothic", sans-serif;
     font-size: 24px;
     font-weight: 400;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25px;
 }
 
 .float {
