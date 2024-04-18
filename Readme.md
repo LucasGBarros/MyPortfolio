@@ -10,3 +10,33 @@ If you have any questions or suggestions, don't hesitate to reach out. I'm here 
 
 Enjoy exploring! :rocket:
 
+## INSTRUCTIONS FOR RUNNING THE WEBSITE:
+
+To run this project locally, follow the steps below:
+
+### Prerequisites
+
+Make sure you have Visual Studio Code installed and the Live Server extension.
+
+### Steps
+
+Access the repository link: [Portfolio](https://github.com/LucasGBarros/MyPortfolio.git)
+
+1. Clone this repository: 
+
+    ```git clone https://github.com/LucasGBarros/MyPortfolio.git```
+
+2. Open the project folder in VSCode:
+
+    ```cd MyPortfolio```
+    
+    ```code .```
+
+3. In the bottom right corner of VSCode, you will see "Go Live" in the status bar. Click on it.
+
+4. Visual Studio Code will automatically open your default browser displaying your portfolio.
+
+This will start the live server and allow you to view your portfolio locally.
+
+**Note:**
+Make sure that the file you want to preview, for example, index.html, is open in VSCode before clicking "Go Live".
