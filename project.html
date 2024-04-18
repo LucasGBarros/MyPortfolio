@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -18,7 +18,31 @@
             <a class="menu__link selected" href="project.html">PROJECT</a>
         </nav>
     </header>
-    <main></main>
+    <main class="presentation">
+        <section class="project__info">
+            <h1 class="laced">Automation Laced Website</h1>
+            <p class="information__step">Automated Testing for LACED Website - <strong class="contrast">Search</strong>, <strong class="contrast">Add to Cart</strong>, and <strong class="contrast">Purchase Process</strong>. This repository contains automated tests for the LACED website, focusing on the end-to-end process of <strong class='contrast'>searching for a specific pair of sneakers</strong>, adding them to the cart ("<strong class="contrast">Add to Bag</strong>"), and completing the <strong class='contrast'>purchase process</strong>. The automation script simulates user interactions to ensure smooth functionality and validate the checkout process, enhancing the quality and reliability of the website.</p>
+            <h2 class="laced">Instructions for running Cypress test:</h2>
+            <ol class="information__step__sequence">
+                <li>VsCode installed.</li>
+                <li>NodeJs Installed.</li>
+                <li>Open project in VsCode.</li>
+                <li>Inside the project, open terminal and execute the following commands:</li>
+                <div class="code-box">
+                <code>
+                    &gt; npm install<br>
+                    &gt; npm install cypress<br>
+                    &gt; npx cypress open
+                </code>
+                </div>
+                <li>With Cypress opened, click on "E2E Testing".</li>
+                <li>Select Chrome browser and then click "Start E2E Testing in Chrome".</li>
+                <li>After Chrome browser opens, click on "laced.cy.js".</li>
+                <li>Automation running.</li>
+            </ol>
+            <video class="videoMP4" controls src="asserts/LacedProject.mp4" type='video/mp4'></video>
+        </section>
+    </main>
     <a href="https://api.whatsapp.com/send?phone=5511979984855" class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i></a>
     <footer class="footer">
@@ -26,5 +50,4 @@
         <p>Contact Me: +353 (83) 310 0398</p>
     </footer>
 </body>
-
 </html>

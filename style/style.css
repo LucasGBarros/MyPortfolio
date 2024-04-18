@@ -258,3 +258,39 @@ header {
     margin-bottom: 15px;
     font-family: "Century Gothic", sans-serif;
 }
+
+.videoMP4 {
+    width: 80%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.laced {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Century Gothic", sans-serif;
+    color: #c1c1c1;
+}
+
+.information__step {
+    line-height: 1.7;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: "Century Gothic", sans-serif;
+}
+
+.information__step__sequence {
+    line-height: 1.7;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: "Century Gothic", sans-serif;
+}
+
+.code-box {
+    padding: 15px;
+    margin-bottom: 10px; 
+    font-family: "Century Gothic", sans-serif;
+    font-size: 18px;
+}
